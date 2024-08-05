@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Room Painting Calculator</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="calculator-container">
+    <h1>Room Paint Calculator</h1>
+    <form id="paintCalculator">
+      <label for="roomLength">Room Length (in meters):</label>
+      <input type="number" id="roomLength" name="roomLength" required>
+      
+      <label for="roomWidth">Room Width (in meters):</label>
+      <input type="number" id="roomWidth" name="roomWidth" required>
+      
+      <label for="roomHeight">Room Height (in meters):</label>
+      <input type="number" id="roomHeight" name="roomHeight" required>
+      
+      <label for="paintCoverage">Paint Coverage per Liter (in square meters):</label>
+      <input type="number" id="paintCoverage" name="paintCoverage" required>
+      
+      <label for="paintCoats">Number of Paint Coats:</label>
+      <input type="number" id="paintCoats" name="paintCoats" required>
+      
+      <button type="submit">Calculate</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
